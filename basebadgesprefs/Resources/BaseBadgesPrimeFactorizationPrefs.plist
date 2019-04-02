@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>PAGE_TITLE</string>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>FORMAT_TYPE_PRIME_FACTORIZATION_GROUP_FOOTER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>FORMAT_TYPE_PRIME_FACTORIZATION_LIST_LABEL</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>formatTypePrimeFactorization</string>
+			<key>id</key>
+			<string>BBFormatTypePrimeFactorization</string>
+			<key>default</key>
+			<string>0</string>
+			<key>validTitles</key>
+			<array>
+				<string>FORMAT_TYPE_PRIME_FACTORIZATION_LIST_ITEM_WITHOUT_SINGLE_POWERS_WITH_SEPARATORS</string>
+				<string>FORMAT_TYPE_PRIME_FACTORIZATION_LIST_ITEM_WITH_SINGLE_POWERS_WITH_SEPARATORS</string>
+				<string>FORMAT_TYPE_PRIME_FACTORIZATION_LIST_ITEM_WITH_SINGLE_POWERS_WITHOUT_SEPARATORS</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>PAGE_TITLE</string>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>FORMAT_TYPE_OCTAL_GROUP_FOOTER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>FORMAT_TYPE_OCTAL_LIST_LABEL</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>formatTypeOctal</string>
+			<key>id</key>
+			<string>BBFormatTypeOctal</string>
+			<key>default</key>
+			<string>0</string>
+			<key>validTitles</key>
+			<array>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_AS_IS</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_POSTFIX_SUBSCRIPT_8</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_POSTFIX_LOWERCASE_O</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_ZERO</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_BACKSLASH</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_LOWERCASE_O</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_LOWERCASE_Q</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_ZERO_LOWERCASE_O</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_AMPERSAND</string>
+				<string>FORMAT_TYPE_OCTAL_LIST_ITEM_PREFIX_DOLLAR_SIGN</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>

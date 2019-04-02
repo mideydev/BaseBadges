@@ -1,0 +1,37 @@
+PAGE_TITLE = "BaseBadges";
+
+TWEAK_ENABLED_SWITCH_LABEL = "Enabled";
+
+CONVERSION_TYPE_LIST_LABEL = "Conversion Type";
+
+CONVERSION_TYPE_LIST_ITEM_CUSTOM_FORMAT = "Custom Format";
+CONVERSION_TYPE_LIST_ITEM_UNARY = "Unary";
+CONVERSION_TYPE_LIST_ITEM_BINARY = "Binary";
+CONVERSION_TYPE_LIST_ITEM_OCTAL = "Octal";
+CONVERSION_TYPE_LIST_ITEM_DECIMAL = "Decimal";
+CONVERSION_TYPE_LIST_ITEM_HEXADECIMAL = "Hexadecimal";
+CONVERSION_TYPE_LIST_ITEM_ROMAN_NUMERALS = "Roman Numerals";
+CONVERSION_TYPE_LIST_ITEM_PRIME_FACTORIZATION = "Prime Factorization";
+CONVERSION_TYPE_LIST_ITEM_SCIENTIFIC_NOTATION = "Scientific Notation";
+CONVERSION_TYPE_LIST_ITEM_ENGINEERING_NOTATION = "Engineering Notation";
+CONVERSION_TYPE_LIST_ITEM_BINARY_ENGINEERING_NOTATION = "Binary Engineering Notation";
+CONVERSION_TYPE_LIST_ITEM_RANDOM_CONVERSION_TYPE = "Random";
+
+CONVERSION_TYPE_LIST_DESCRIPTION = "If choosing Random, you may want to configure all conversion type formats so that they are distinguishable from each other.";
+
+SETTINGS_GROUP_LABEL = "Format Settings";
+
+UNARY_SETTINGS_LABEL = "Unary Settings";
+BINARY_SETTINGS_LABEL = "Binary Settings";
+OCTAL_SETTINGS_LABEL = "Octal Settings";
+DECIMAL_SETTINGS_LABEL = "Decimal Settings";
+HEXADECIMAL_SETTINGS_LABEL = "Hexadecimal Settings";
+ROMAN_NUMERAL_SETTINGS_LABEL = "Roman Numeral Settings";
+PRIME_FACTORIZATION_SETTINGS_LABEL = "Prime Factorization Settings";
+SCIENTIFIC_NOTATION_SETTINGS_LABEL = "Scientific Notation Settings";
+ENGINEERING_NOTATION_SETTINGS_LABEL = "Engineering Notation Settings";
+BINARY_ENGINEERING_NOTATION_SETTINGS_LABEL = "Binary Engineering Notation Settings";
+CUSTOM_FORMAT_SETTINGS_LABEL = "Custom Format Settings";
+RANDOM_SETTINGS_LABEL = "Random Settings";
+
+COPYRIGHT_FOOTER = "\U00A9 2019 midey @mideydev <mideydev@gmail.com>";

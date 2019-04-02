@@ -1,0 +1,10 @@
+Package: org.midey.basebadges
+Name: BaseBadges
+Depends: mobilesubstrate, preferenceloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Display badges in different numeral systems
+Maintainer: midey <mideydev@gmail.com>
+Author: midey <mideydev@gmail.com>
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/BaseBadgesPrefs.bundle/BaseBadgesIcon@2x.png

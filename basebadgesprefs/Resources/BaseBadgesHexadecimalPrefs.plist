@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>PAGE_TITLE</string>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>FORMAT_TYPE_HEXADECIMAL_GROUP_FOOTER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>FORMAT_TYPE_HEXADECIMAL_LIST_LABEL</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>formatTypeHexadecimal</string>
+			<key>id</key>
+			<string>BBFormatTypeHexadecimal</string>
+			<key>default</key>
+			<string>0</string>
+			<key>validTitles</key>
+			<array>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_AS_IS</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_POSTFIX_SUBSCRIPT_16</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_POSTFIX_UPPERCASE_H</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_POSTFIX_LOWERCASE_H</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_ZERO</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_ZERO_LOWERCASE_X</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_ZERO_LOWERCASE_H</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_ZERO_POSTFIX_UPPERCASE_H</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_ZERO_POSTFIX_LOWERCASE_H</string>
+				<string>FORMAT_TYPE_HEXADECIMAL_LIST_ITEM_PREFIX_DOLLAR_SIGN</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>USE_LOWERCASE_HEXADECIMAL_CHARACTERS_SWITCH_LABEL</string>
+			<key>key</key>
+			<string>useLowercaseHexadecimalCharacters</string>
+			<key>id</key>
+			<string>BBUseLowercaseHexadecimalCharacters</string>
+			<key>default</key>
+			<false/>
+		</dict>
+
+	</array>
+</dict>
+</plist>

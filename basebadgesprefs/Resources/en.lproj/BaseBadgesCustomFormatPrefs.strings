@@ -1,0 +1,23 @@
+PAGE_TITLE = "Custom Format";
+
+FORMAT_TYPE_CUSTOM_FORMAT_GROUP_FOOTER = "Custom text to display.  Use space(s) for blank badges or padding.  Optional conversion specifications:
+
+%n - native badge value
+%u - unary value (by preference)
+%U - unary value (raw)
+%b - binary value (by preference)
+%B - binary value (raw)
+%o - octal value (by preference)
+%O - octal value (raw)
+%d - decimal value (by preference)
+%D - decimal value (raw)
+%h - hexadecimal value (by preference)
+%H - hexadecimal value (raw)
+%r - roman numeral value
+%p - prime factorization
+%c - scientific notation
+%e - engineering notation
+%i - binary engineering notation
+%s - 's' if the native badge value is 1; otherwise empty";
+
+FORMAT_TYPE_CUSTOM_FORMAT_STRING_LABEL = "Custom Format String";

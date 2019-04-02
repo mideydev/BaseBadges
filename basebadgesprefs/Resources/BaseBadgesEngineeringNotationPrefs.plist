@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>PAGE_TITLE</string>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>FORMAT_TYPE_ENGINEERING_NOTATION_GROUP_FOOTER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>FORMAT_TYPE_ENGINEERING_NOTATION_LIST_LABEL</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>formatTypeEngineeringNotation</string>
+			<key>id</key>
+			<string>BBFormatTypeEngineeringNotation</string>
+			<key>default</key>
+			<string>0</string>
+			<key>validTitles</key>
+			<array>
+				<string>FORMAT_TYPE_ENGINEERING_NOTATION_LIST_ITEM_SHORTHAND_UPPERCASE_E</string>
+				<string>FORMAT_TYPE_ENGINEERING_NOTATION_LIST_ITEM_SHORTHAND_LOWERCASE_E</string>
+				<string>FORMAT_TYPE_ENGINEERING_NOTATION_LIST_ITEM_SHORTHAND_SMALL_CAPITAL_E</string>
+				<string>FORMAT_TYPE_ENGINEERING_NOTATION_LIST_ITEM_SHORTHAND_WOLFRAM_LANGUAGE</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>
